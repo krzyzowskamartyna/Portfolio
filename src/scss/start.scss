@@ -1,0 +1,22 @@
+$pink: #FF0066;
+$blue: #99D2E3;
+$light: #E6DBDF; 
+.start{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 90vh;
+    
+}
+.title{
+    align-content: center;
+    text-align: center;
+    font-size: 150%;
+}
+h1, h2{
+    
+    font-weight: 100;
+}
+.title-sec{
+    color: $pink;
+}
