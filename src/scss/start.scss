@@ -4,14 +4,16 @@ $light: #E6DBDF;
 .start{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    height: 90vh;
-    
+    justify-content: center;   
+    max-height: 100vh;
 }
 .title{
+    position: absolute;
     align-content: center;
     text-align: center;
     font-size: 150%;
+    padding: 5%;
+    vertical-align: middle;
 }
 h1, h2{
     
@@ -20,3 +22,12 @@ h1, h2{
 .title-sec{
     color: $pink;
 }
+.btn{
+    .fas{
+    transition: transform 2s;
+    margin-left: 0.8rem;}
+    &:hover{
+    .fas{
+    transform: rotateZ(90deg)};
+    
+}}
