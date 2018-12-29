@@ -1,8 +1,8 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import About from './About';
 import '../css/navbar.css';
 
-const About = () => <h2>About</h2>;
 const Portfolio = () => <h2>Portfolio</h2>;
 const Contact = () => <h2>Contact</h2>;
 

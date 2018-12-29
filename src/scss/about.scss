@@ -1,0 +1,9 @@
+.list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    .item{
+        padding: 5%;
+        font-size: 200%;
+    }
+}
