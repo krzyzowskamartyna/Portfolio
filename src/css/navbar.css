@@ -1,0 +1,4 @@
+ul, li {
+  list-style: none; }
+  ul li, li li {
+    display: inline; }

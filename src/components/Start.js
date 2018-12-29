@@ -15,7 +15,8 @@ class Start extends Component {
                     <div className="title">
                         <h1> Martyna <span className="title-sec">Krzyżowska</span></h1>
                         <h2>I'm a front end developer</h2>
-                        <Button variant="outlined" color="secondary" className="btn">
+
+                        <Button href="/" variant="outlined" color="secondary" className="btn">
                             Show more  <Icon className='fas fa-arrow-right'></Icon>
                         </Button>
                     </div>
