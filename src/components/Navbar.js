@@ -10,18 +10,20 @@ const Navbar = () => (
     <Router>
         <div>
             <nav>
+
                 <ul>
+                    <li className="blank"></li>
                     <li>
-                        <Link to="/">Home</Link>
+                        <Link className="link" to="/">Home</Link>
                     </li>
                     <li>
-                        <Link to="/about/">About</Link>
+                        <Link className="link" to="/about/">About</Link>
                     </li>
                     <li>
-                        <Link to="/portfolio/">Portfolio</Link>
+                        <Link className="link" to="/portfolio/">Portfolio</Link>
                     </li>
                     <li>
-                        <Link to="/contact/">Contact</Link>
+                        <Link className="link" to="/contact/">Contact</Link>
                     </li>
                 </ul>
             </nav>
