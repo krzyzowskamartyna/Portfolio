@@ -1,9 +1,32 @@
+$blue: #99D2E3;
+.container{
+    display: flex;
+    padding: 5%;
+    flex-direction: column;
+    align-content: space-around;
+ 
+    .title{
+        width: 100%;
+    }
+}
 .list{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     .item{
-        padding: 5%;
-        font-size: 200%;
+        padding: 5% 7%;
+        .fab{
+            font-size: 400%;
+            width: auto !important
+        }
+    img{
+        max-width: 200px;
+        color: #fff
     }
+    }
+}
+.header{
+    padding:2%;
+    text-align: center;
 }

@@ -1,0 +1,12 @@
+.contact__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.forms {
+  justify-content: center; }
+  .forms label {
+    color: #eeeeee; }
+
+fieldset {
+  border-color: none !important; }

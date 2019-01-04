@@ -1,13 +1,18 @@
-ul {
+nav {
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
-  word-spacing: 1rem; }
+  justify-content: flex-end; }
+
+ul {
+  display: flex;
+  word-spacing: 1rem;
+  align-content: flex-end; }
 
 li {
   list-style: none;
   font-size: 150%;
-  margin-left: 1rem; }
+  margin-left: 1rem;
+  margin-right: 1rem; }
 
 .link {
   text-decoration: none;
@@ -15,5 +20,5 @@ li {
   text-transform: uppercase; }
 
 @media screen and (max-width: 690px) {
-  ul {
+  nav {
     display: none; } }

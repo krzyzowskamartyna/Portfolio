@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  padding: 5%;
+  flex-direction: column;
+  align-content: space-around; }
+  .container .title {
+    width: 100%; }
+
+.list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center; }
+  .list .item {
+    padding: 5% 7%; }
+    .list .item .fab {
+      font-size: 400%;
+      width: auto !important; }
+    .list .item img {
+      max-width: 200px;
+      color: #fff; }
+
+.header {
+  padding: 2%;
+  text-align: center; }
