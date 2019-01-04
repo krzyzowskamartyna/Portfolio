@@ -17,7 +17,7 @@ const Navbar = () => (
                     <a className="link" href="#portfolio">Portfolio</a>
                 </li>
                 <li>
-                    <a className="link" href="/contact/">Contact</a>
+                    <a className="link" href="#contact">Contact</a>
                 </li>
             </ul>
         </nav>

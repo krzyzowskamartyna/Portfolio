@@ -15,6 +15,7 @@
         padding:10%;
     }
 }
+
 .header{
     font-size: 150%;
 }
@@ -23,3 +24,37 @@
         margin-top: 100px;
     }
 }
+
+.portfolio_item{
+    position: relative;
+}
+.portfolio_card{
+    opacity: 1;
+    transition: .5s ease;
+    display: flex;
+    backface-visibility: hidden;
+}
+.back{
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    justify-content: center;
+    .btn{background: none !important;
+    a{
+        text-decoration: none;
+        color: black;
+    }}
+    .fas{
+    font-size:400%;}
+}
+.portfolio_item:hover .portfolio_card  {
+   opacity: 0.5; }
+
+.portfolio_item:hover .back{
+    opacity: 0.8;
+   }

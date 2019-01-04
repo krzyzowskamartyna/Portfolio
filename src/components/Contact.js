@@ -36,6 +36,7 @@ const Contact = () => (
                     label="Text message"
                     placeholder="Text message"
                     fullWidth
+                    multiline
                     margin="normal"
                     InputLabelProps={{
                         shrink: true,

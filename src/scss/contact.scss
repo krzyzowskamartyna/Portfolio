@@ -6,8 +6,13 @@
 .forms{
     justify-content: center;
     label{
-    color: #eeeeee;}
-}
-fieldset{
-    border-color: none !important
+    color: #ddd;
+    }
+    ::placeholder{
+        color: #ccc !important;
+    }
+    :nth-child(1){
+        border-color: rgba(255, 0, 102, 0.43) !important;
+        color: #ddd !important;
+    }
 }
