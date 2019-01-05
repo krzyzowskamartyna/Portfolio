@@ -4,7 +4,24 @@
   align-items: center; }
 
 .forms {
-  justify-content: center; }
+  justify-content: center;
+  min-width: 50vw; }
+  .forms input[type=text] {
+    color: #ddd; }
+    .forms input[type=text]:focus, .forms input[type=text]:active {
+      background: #46515c81; }
+  .forms input:-webkit-autofill,
+  .forms input:-webkit-autofill:hover,
+  .forms input:-webkit-autofill:focus
+textarea:-webkit-autofill,
+  .forms textarea:-webkit-autofill:hover
+textarea:-webkit-autofill:focus,
+  .forms select:-webkit-autofill,
+  .forms select:-webkit-autofill:hover,
+  .forms select:-webkit-autofill:focus {
+    -webkit-text-fill-color: #ddd;
+    -webkit-box-shadow: 0 0 0px 1000px #55647481 inset;
+    transition: background-color 5000s ease-in-out 0s; }
   .forms label {
     color: #ddd; }
   .forms ::placeholder {

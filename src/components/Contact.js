@@ -9,12 +9,13 @@ const Contact = () => (
         </div>
         <div className="contact__container">
             <form className="forms">
-                <TextField className="TextField"
+                <TextField
                     id="name"
                     label="Name"
                     placeholder="Name"
                     margin="normal"
                     variant="outlined"
+                    fullWidth
                 /> <br />
                 <TextField
                     id="company"
@@ -22,14 +23,15 @@ const Contact = () => (
                     placeholder="Company"
                     margin="normal"
                     variant="outlined"
+                    fullWidth
                 />  <br />
                 <TextField
                     id="email"
                     label="e-mail"
                     placeholder="e-mail"
                     margin="normal"
-
                     variant="outlined"
+                    fullWidth
                 />  <br />
                 <TextField
                     id="message"
@@ -38,10 +40,8 @@ const Contact = () => (
                     placeholder="Text message"
                     fullWidth
                     multiline
+                    rows="4"
                     margin="normal"
-                    InputLabelProps={{
-                        shrink: true,
-                    }}
                 />
             </form>
         </div>
