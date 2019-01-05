@@ -71,7 +71,6 @@ class Start extends Component {
                             "retina_detect": true
                         }} />
                 </div>
-
             </div >
         )
     }
