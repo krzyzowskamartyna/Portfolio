@@ -154,7 +154,7 @@ class Portfolio extends Component {
                                     />
                                     <CardContent>
                                         <Typography component="p">
-                                            Portfolio project build with <span className="title-sec">React</span> and <span className="title-sec">NodeJS</span>
+                                            Portfolio project build with <span className="title-sec">React</span> and <span className="title-sec">Firebase</span>
                                         </Typography>
                                     </CardContent>
                                 </CardActionArea>

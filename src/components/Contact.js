@@ -1,6 +1,7 @@
 import React from 'react';
 import TextField from '@material-ui/core/TextField';
 import '../css/contact.css';
+import { Button } from '@material-ui/core';
 
 const Contact = () => (
     <div id="contact">
@@ -43,6 +44,9 @@ const Contact = () => (
                     rows="4"
                     margin="normal"
                 />
+                <Button className="btn_send" variant="contained" color="primary">
+                    Send
+                </Button>
             </form>
         </div>
     </div>

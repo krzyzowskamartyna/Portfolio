@@ -3,6 +3,9 @@
   flex-direction: column;
   align-items: center; }
 
+.btn_send {
+  vertical-align: middle; }
+
 .forms {
   justify-content: center;
   min-width: 50vw; }
@@ -20,7 +23,7 @@ textarea:-webkit-autofill:focus,
   .forms select:-webkit-autofill:hover,
   .forms select:-webkit-autofill:focus {
     -webkit-text-fill-color: #ddd;
-    -webkit-box-shadow: 0 0 0px 1000px #55647481 inset;
+    box-shadow: 0 0 0px 1000px #55647481 inset;
     transition: background-color 5000s ease-in-out 0s; }
   .forms label {
     color: #ddd; }
