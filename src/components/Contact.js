@@ -17,9 +17,9 @@ const Contact = () => (
                     variant="outlined"
                 /> <br />
                 <TextField
-                    id="surname"
-                    label="Surname"
-                    placeholder="Surname"
+                    id="company"
+                    label="Company"
+                    placeholder="Company"
                     margin="normal"
                     variant="outlined"
                 />  <br />
@@ -28,6 +28,7 @@ const Contact = () => (
                     label="e-mail"
                     placeholder="e-mail"
                     margin="normal"
+
                     variant="outlined"
                 />  <br />
                 <TextField

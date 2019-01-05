@@ -3,7 +3,6 @@ nav{
     display: flex;
     flex-direction: row;
     justify-content: flex-end ;
-    
 }
 ul{
     display: flex;
@@ -22,7 +21,7 @@ li{
     color: $blue;
     text-transform: uppercase;
 }
-@media screen and (max-width: 690px){
+@media screen and (max-width: 1024px){
     nav{
         display: none
     }

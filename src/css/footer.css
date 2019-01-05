@@ -1,0 +1,19 @@
+.footer {
+  min-height: 40vh;
+  margin-top: 10%;
+  font-size: 120%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column; }
+
+i {
+  padding: 2% 2% 2% 0%;
+  font-Size: 300%; }
+  i:hover, i:active {
+    color: #FF0066;
+    transition: 1s; }
+
+a {
+  text-decoration: none;
+  color: white; }

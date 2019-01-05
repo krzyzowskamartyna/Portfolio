@@ -10,7 +10,12 @@ import Button from '@material-ui/core/Button';
 import CardActionArea from '@material-ui/core/CardActionArea';
 import CardActions from '@material-ui/core/CardActions';
 
-
+const style = {
+    width: 350,
+    minHeight: 370,
+    padding: 1,
+    margin: 1
+}
 class Portfolio extends Component {
     render() {
         return (
@@ -21,7 +26,7 @@ class Portfolio extends Component {
                     </div>
                     <div className="portfolio_list">
                         <div className="portfolio_item">
-                            <Card className="portfolio_card" style={{ width: 350, minHeight: 370, padding: 1 }}>
+                            <Card className="portfolio_card" style={style}>
                                 <CardActionArea>
                                     <CardHeader
                                         title="Collect Your Notes App"
@@ -33,44 +38,42 @@ class Portfolio extends Component {
 
                                     <CardContent>
                                         <Typography component="p">
-                                            App build with <span className="title-sec">MongoDB </span>, <span className="title-sec">Express</span>, <span className="title-sec">NodeJS</span>, <span className="title-sec">React</span>
+                                            App build with <span className="title-sec">MongoDB </span>, <span className="title-sec">Express</span>, <span className="title-sec">NodeJS</span> and <span className="title-sec">React</span>
                                         </Typography>
                                     </CardContent>
 
                                 </CardActionArea>
                             </Card>
-                            <Card className="portfolio_card back" style={{ width: 350, minHeight: 370, padding: 1 }}>
+                            <Card className="portfolio_card back" style={style}>
                                 <CardActions className="search">
                                     <Button className="btn"><a href="https://nameless-castle-80640.herokuapp.com/" target="_blank" rel="noopener noreferrer"><i className="fas fa-search"></i></a></Button>
                                 </CardActions>
                             </Card>
                         </div>
                         <div className="portfolio_item">
-                            <Card className="portfolio_card" style={{
-                                width: 350, minHeight: 370, padding: 1
-                            }}><CardActionArea>
-                                    < CardHeader
-                                        title="Linux Website"
-                                    />
-                                    <CardMedia style={{ height: 0, paddingTop: '56%' }}
-                                        image={require("../static/images/Linux.PNG")}
-                                        title="Linux Website"
-                                    />
-                                    <CardContent>
-                                        <Typography component="p">
-                                            Website created for chemistry students as a teaching resource build with <span className="title-sec">React</span>
-                                        </Typography>
-                                    </CardContent>
-                                </CardActionArea>
+                            <Card className="portfolio_card" style={style} ><CardActionArea>
+                                < CardHeader
+                                    title="Linux Website"
+                                />
+                                <CardMedia style={{ height: 0, paddingTop: '56%' }}
+                                    image={require("../static/images/Linux.PNG")}
+                                    title="Linux Website"
+                                />
+                                <CardContent>
+                                    <Typography component="p">
+                                        Website created for chemistry students as a teaching resource build with <span className="title-sec">React</span>
+                                    </Typography>
+                                </CardContent>
+                            </CardActionArea>
                             </Card>
-                            <Card className="portfolio_card back" style={{ width: 350, minHeight: 370, padding: 1 }}>
+                            <Card className="portfolio_card back" style={style}>
                                 <CardActions className="search">
                                     <Button className="btn"><a href="https://krzyzowskamartyna.github.io/Linux-website/" target="_blank" rel="noopener noreferrer"><i className="fas fa-search"></i></a></Button>
                                 </CardActions>
                             </Card>
                         </div>
                         <div className="portfolio_item">
-                            <Card className="portfolio_card" style={{ width: 350, minHeight: 370, padding: 1 }}>
+                            <Card className="portfolio_card" style={style}>
                                 <CardActionArea>
                                     <CardHeader
                                         title="Research Website"
@@ -86,14 +89,14 @@ class Portfolio extends Component {
                                     </CardContent>
                                 </CardActionArea>
                             </Card>
-                            <Card className="portfolio_card back" style={{ width: 350, minHeight: 370, padding: 1 }}>
+                            <Card className="portfolio_card back" style={style}>
                                 <CardActions className="search">
                                     <Button className="btn"><a href="https://krzyzowskamartyna.github.io/ResearchWeb/dist/index.html" target="_blank" rel="noopener noreferrer"><i className="fas fa-search"></i></a></Button>
                                 </CardActions>
                             </Card>
                         </div>
                         <div className="portfolio_item">
-                            <Card style={{ width: 350, minHeight: 370, padding: 1 }}>
+                            <Card className="portfolio_card" style={style}>
                                 <CardActionArea>
                                     <CardHeader
                                         title="Quiz App"
@@ -109,10 +112,15 @@ class Portfolio extends Component {
                                     </CardContent>
                                 </CardActionArea>
                             </Card>
+                            <Card className="portfolio_card back" style={style}>
+                                <CardActions className="search">
+                                    <Button className="btn"><a href="/" target="_blank" rel="noopener noreferrer"><i className="fas fa-search"></i></a></Button>
+                                </CardActions>
+                            </Card>
                         </div>
 
                         <div className="portfolio_item">
-                            <Card style={{ width: 350, minHeight: 370, padding: 1 }}>
+                            <Card className="portfolio_card" style={style}>
                                 <CardActionArea>
                                     <CardHeader
                                         title="Weather App"
@@ -128,14 +136,14 @@ class Portfolio extends Component {
                                     </CardContent>
                                 </CardActionArea>
                             </Card>
-                            <Card className="portfolio_card back" style={{ width: 350, minHeight: 370, padding: 1 }}>
+                            <Card className="portfolio_card back" style={style}>
                                 <CardActions className="search">
                                     <Button className="btn"><a href="https://krzyzowskamartyna.github.io/Weather-app/" target="_blank" rel="noopener noreferrer"><i className="fas fa-search"></i></a></Button>
                                 </CardActions>
                             </Card>
                         </div>
                         <div className="portfolio_item">
-                            <Card style={{ width: 350, minHeight: 370, padding: 1 }}>
+                            <Card className="portfolio_card" style={style}>
                                 <CardActionArea>
                                     <CardHeader
                                         title="Portfolio project"
@@ -146,12 +154,12 @@ class Portfolio extends Component {
                                     />
                                     <CardContent>
                                         <Typography component="p">
-                                            Portfolio project build with <span className="title-sec">React</span> and <span className="title-sec">Firebase</span>
+                                            Portfolio project build with <span className="title-sec">React</span> and <span className="title-sec">NodeJS</span>
                                         </Typography>
                                     </CardContent>
                                 </CardActionArea>
                             </Card>
-                            <Card className="portfolio_card back" style={{ width: 350, minHeight: 370, padding: 1 }}>
+                            <Card className="portfolio_card back" style={style}>
                                 <CardActions className="search">
                                     <Button className="btn"><a href="/"><i className="fas fa-search"></i></a></Button>
                                 </CardActions>

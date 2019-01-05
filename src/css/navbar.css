@@ -19,6 +19,6 @@ li {
   color: #99D2E3;
   text-transform: uppercase; }
 
-@media screen and (max-width: 690px) {
+@media screen and (max-width: 1024px) {
   nav {
     display: none; } }
